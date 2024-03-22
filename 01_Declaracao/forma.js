@@ -5,7 +5,8 @@ class Forma{
     }
 
     imprimeForma(){
-        alert(`Tipo de forma: ${thi.tipoDeForma}`);
+        alert (`Tipo de Forma: ${this.tipoDeForma} - Área: ${this.calculaArea()}`);
+        //alert(`Tipo de forma: ${this.tipoDeForma}`);
     }
 
 
