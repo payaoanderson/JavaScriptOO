@@ -1,11 +1,12 @@
 class Quadrado extends Forma {
-    constructor (lado) {
-        super();
-        this.tipoDeForma = "Quadrado";
-        this.lado = lado;
-    }
+  constructor(lado) {
+    // super();
+    // this.tipoDeForma = "Quadrado";
+    super("Quadrado");
+    this.lado = lado;
+  }
 
-    calculaArea(){
-        return this.lado * this.lado;
-    }
+  calculaArea() {
+    return this.lado * this.lado;
+  }
 }
